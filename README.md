@@ -15,11 +15,12 @@ The user just needs to run 'StartRun.m' to see all the results in the paper, and
 
 ------------
 
--Initially, this code provides the results for 2D examples on the unit square but all functions except PolyMat and PointsInSquare work in all dimensions. 
+ 
+- Initially, this code provides the results for 2D examples on the unit square but all functions except PolyMat and PointsInSquare work in all dimensions. 
 
--To generalize PolyMat for other dimensions you just need to switch over different cases for the MultiIndex vector. Or, you may use an integer partitioning algorithm to produce this vector in arbitrary dimensions for a given polynomial order. 
+- To generalize PolyMat for other dimensions you just need to switch over different cases for the MultiIndex vector. Or, you may use an integer partitioning algorithm to produce this vector in arbitrary dimensions for a given polynomial order. 
 
--Of course, similar functions can be developed by the user to produce scattered points in other dimensions. 
+- Of course, similar functions can be developed by the user to produce scattered points in other dimensions. 
 
 - As is pointed out in the paper, the polyharmoic spline kernels (PHS) are implemented in this work. However, other RBFs can be simply replaced. You just need to ignore the scaling commands in the 'LagrangeMat.m' file and implement your favorite RBF in 'Frbf.m'. 
 
